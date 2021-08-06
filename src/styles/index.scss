@@ -1,50 +1,121 @@
+
 @import "~bootstrap/scss/bootstrap.scss";
 
-body{
-    background-color: aqua;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+ul{
+    list-style-type: none;
+    background-color: white;
+    width: 100%;
+    margin: auto; 
+    font-family: 'Lato', sans-serif;
+    box-shadow: 1px 1px 20px 5px #708090;
+
+    
+    
 }
 
-.maindiv{
-    margin: auto;
-    width: 300px;
-   background-color: white;
+.button1{
+    border: none;
+    display: none;
+    background-color: white;
+    justify-content: right;
+    color: blue;
+    padding-right: 20px;
+    
+}
+
+body{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+     
+    background-size: cover;
+    height: 100vh;
+    
+    
+}
+
+.item{
+    
+    height: 75px;
+    
+    display: flex;
+     justify-content: space-between;
+    font-size: x-large;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+    border-top: none;
+    margin-left: -39px;
+    padding-left: 10px;
+    border-left: none;
+    border-right: none;
+    
+   
+    
+}
+
+.itemsLeft{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+      border-style: solid;
+    border-width: thin;
+    border-color: gray;
+    border-top: none;
+    align-items: left;
+    margin-left: -39px;
+    padding-left: 10px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
 input{
     width: 100%;
-    height: 65px;
+    height: 75px;
     font-size: x-large;
-}
-
-ul{
-     list-style-type: none;
-     
-}
-
- li{
-    height: 55px;
-    font-size: x-large;
-    align-items: center;
-    display: flex;
-    margin-left: -15px;
-    justify-content: space-between;
-    border-top: none;
+    font-family: 'Lato', sans-serif;
+    border-color: gray;
     border-width: thin;
-    border-style: solid;
+    padding-left: 10px;
+    border-top: none;
+    border-right: none;
     border-left: none;
-
-
-}
-
-button{
-    background-color: none;
-    border: none;
-    padding-right: 10px;
-
-}
-
-.itemsLeft{
-    font-size: small;
-    color: grey;
     
+    
+    
+}
+
+.buttonAppear:hover .button1 {
+    border: none;
+    display: block;
+   
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 100px;
+}
+
+.boxShadow{
+    box-shadow: 1px 1px 20px 5px #708090;
+    width: 35%;
+    height: 75px;
+    margin: auto;
+}
+
+.button2{
+    border: none;
+     background-color: white;
+    justify-content: right;
+    align-items: center;
+    padding-right: 20px;
+    color: blue;
 }
