@@ -1,9 +1,13 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+body{
+    background-color: aqua;
+}
+
 .maindiv{
     margin: auto;
     width: 300px;
-    background-color: pink;
+   background-color: white;
 }
 
 input{
@@ -14,4 +18,33 @@ input{
 
 ul{
      list-style-type: none;
+     
+}
+
+ li{
+    height: 55px;
+    font-size: x-large;
+    align-items: center;
+    display: flex;
+    margin-left: -15px;
+    justify-content: space-between;
+    border-top: none;
+    border-width: thin;
+    border-style: solid;
+    border-left: none;
+
+
+}
+
+button{
+    background-color: none;
+    border: none;
+    padding-right: 10px;
+
+}
+
+.itemsLeft{
+    font-size: small;
+    color: grey;
+    
 }

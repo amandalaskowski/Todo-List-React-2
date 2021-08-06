@@ -7,6 +7,7 @@ export function TodoList() {
 	return (
 		<div className="maindiv">
 			<input
+				placeholder="What needs to be done?"
 				type="text"
 				value={userInput}
 				onChange={event => {
@@ -28,6 +29,7 @@ export function TodoList() {
 						</li>
 					);
 				})}
+				<li className="itemsLeft">{todoList.length} items left</li>
 			</ul>
 		</div>
 	);
